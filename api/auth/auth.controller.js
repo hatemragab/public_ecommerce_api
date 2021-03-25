@@ -31,7 +31,7 @@ exports.login = (req, res, next) => {
 };
 exports.register = (req, res, next) => {
     req.checkBody("name", "name missing").notEmpty()
-    req.checkBody("email", "email missing").notEmpty()
+    req.checkBody("email", "email missing Or Not formatted").isEmail()
     req.checkBody("password", "password missing").notEmpty()
     // req.checkBody("img", "img missing").notEmpty()
     // req.checkBody("imgThumb", "imgThumb missing").notEmpty()

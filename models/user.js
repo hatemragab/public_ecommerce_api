@@ -19,9 +19,6 @@ module.exports = (sequelize, DataTypes) => {
     email: DataTypes.STRING,
     image: DataTypes.STRING,
     imageThumb: DataTypes.STRING,
-    appVersion: DataTypes.STRING,
-    isBan: DataTypes.INTEGER,
-    role: DataTypes.INTEGER,
     isEmailVerified: DataTypes.INTEGER,
     createdAt: DataTypes.BIGINT
   }, {
