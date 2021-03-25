@@ -73,8 +73,8 @@ let usersServices = (function () {
                 } else {
                     user.create({
                         name: options.name,
-                        image: options.img,
-                        imageThumb: options.imgThumb,
+                        //  image: options.img,
+                        //  imageThumb: options.imgThumb,
                         email: options.email,
                         password: password,
                         createdAt: Date.now()
@@ -108,11 +108,11 @@ let usersServices = (function () {
                     [Op.not]: {
                         id: options.myId
                     },
-                    [Op.or]:{
+                    [Op.or]: {
                         name: {
                             [Op.like]: `${options.text}%`
                         },
-                        email:{
+                        email: {
                             [Op.like]: `${options.text}%`
                         }
                     },

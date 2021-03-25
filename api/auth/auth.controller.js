@@ -50,10 +50,12 @@ exports.register = (req, res, next) => {
                 data: user
             })
         }).catch((err) => {
+            console.log(err)
             res.status(400).send({
                 success: false,
                 data: err['errors'][0]['message']
             })
+
         })
     }
 

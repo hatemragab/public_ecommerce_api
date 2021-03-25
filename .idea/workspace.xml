@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6858f900-f063-41b1-a185-9a47b952511b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linux vps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/profile_images/default_user_image.png" afterDir="false" />
+    <list default="true" id="6858f900-f063-41b1-a185-9a47b952511b" name="Default Changelist" comment="add unique to email field fix images paths">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/user/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/user/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/20210323110012-create-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20210323110012-create-user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/auth/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/auth/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/user/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/user/user.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux vps" beforeDir="false" afterPath="$PROJECT_DIR$/linux vps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +55,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hatem\node_js_projects\public_ecommerce_api" />
+      <recent name="C:\Users\hatem\node_js_projects\public_ecommerce_api\public\images" />
       <recent name="C:\Users\hatem\node_js_projects\public_ecommerce_api\api" />
       <recent name="C:\Users\hatem\node_js_projects\public_ecommerce_api\config" />
-      <recent name="C:\Users\hatem\node_js_projects\public_ecommerce_api" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,8 +70,16 @@
       <option name="presentableId" value="Default" />
       <updated>1616496294849</updated>
       <workItem from="1616496295895" duration="3533000" />
-      <workItem from="1616668498232" duration="2320000" />
+      <workItem from="1616668498232" duration="3923000" />
     </task>
+    <task id="LOCAL-00001" summary="add unique to email field fix images paths">
+      <created>1616671123962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616671123962</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +95,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add unique to email field fix images paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="add unique to email field fix images paths" />
   </component>
   <component name="WindowStateProjectService">
     <state x="721" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616668534240">
@@ -122,5 +133,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616502091471" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616671125233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616671125233" />
   </component>
 </project>
