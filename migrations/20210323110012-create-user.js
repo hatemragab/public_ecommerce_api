@@ -9,36 +9,46 @@ module.exports = {
         type: Sequelize.BIGINT
       },
       name: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(25),
+        allowNull: false,
       },
       password: {
-        type: Sequelize.TEXT
+        type: Sequelize.TEXT,
+        allowNull: false,
       },
       email: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(50),
+        unique:true,
+        allowNull: false,
       },
       image: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(50),
+        defaultValue: "default_user_image.png"
       },
       imageThumb: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(50),
+        defaultValue: "default_user_image.png"
       },
       appVersion: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(25),
+        allowNull:false,
       },
       isBan: {
-        type: Sequelize.INTEGER
+        type: Sequelize.TINYINT,
+        defaultValue: 0
       },
       role: {
-        type: Sequelize.INTEGER
+        type: Sequelize.TINYINT,
+        defaultValue: 1
       },
       isEmailVerified: {
-        type: Sequelize.INTEGER
+        type: Sequelize.TINYINT,
+        defaultValue: 0
       },
       createdAt: {
-        type: Sequelize.BIGINT
+        type: Sequelize.BIGINT(15),
+        allowNull: false,
       },
-
     });
   },
   down: async (queryInterface, Sequelize) => {

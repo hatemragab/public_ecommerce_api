@@ -20,7 +20,6 @@ exports.get_user_id = (req, res, next) => {
         })
     } else {
         usersServices.getUserId(1).then((data) => {
-            console.log(data);
             res.send({success: true, data});
         }).catch((err) => {
             console.log(err);
